@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:my_annex/Bottom%20Navigation%20Bar/Bottom_Nav.dart';
 import 'package:my_annex/Home%20Page/UI/SingleRentTile.dart';
+import '../../Bottom Navigation Bar/Bottom_Nav.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNav(),
+      //bottomNavigationBar: BottomNav(),
     );
   }
 }

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class AddNewAnnex extends StatefulWidget {
-  const AddNewAnnex({super.key});
+class UserProfile extends StatefulWidget {
+  const UserProfile({super.key});
 
   @override
-  State<AddNewAnnex> createState() => _AddNewAnnexState();
+  State<UserProfile> createState() => _UserProfileState();
 }
 
-class _AddNewAnnexState extends State<AddNewAnnex> {
+class _UserProfileState extends State<UserProfile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "Create a AD",
+          "My Profile",
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.w600,
