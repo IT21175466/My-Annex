@@ -57,6 +57,10 @@ class _AddNewAnnexState extends State<AddNewAnnex> {
               ),
               TextField(
                 decoration: InputDecoration(
+                  /*prefixIcon: IconButton(
+                    icon: Icon(Icons.location_on),
+                    onPressed: () {},
+                  ),*/
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.0),
                   ),
@@ -67,6 +71,7 @@ class _AddNewAnnexState extends State<AddNewAnnex> {
                 height: 10.h,
               ),
               TextField(
+                keyboardType: TextInputType.number,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.0),
@@ -106,10 +111,12 @@ class _AddNewAnnexState extends State<AddNewAnnex> {
                 children: [
                   Container(
                     child: Center(
-                      child: Icon(Icons.add_a_photo),
-                    ),
-                    height: 70.h,
-                    width: 70.w,
+                        child: IconButton(
+                      icon: Icon(Icons.add_a_photo),
+                      onPressed: () {},
+                    )),
+                    height: 80,
+                    width: 80,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(15),
@@ -126,8 +133,8 @@ class _AddNewAnnexState extends State<AddNewAnnex> {
                     child: Center(
                       child: Icon(Icons.add_a_photo),
                     ),
-                    height: 70.h,
-                    width: 70.w,
+                    height: 80,
+                    width: 80,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(15),
@@ -144,8 +151,8 @@ class _AddNewAnnexState extends State<AddNewAnnex> {
                     child: Center(
                       child: Icon(Icons.add_a_photo),
                     ),
-                    height: 70.h,
-                    width: 70.w,
+                    height: 80,
+                    width: 80,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(15),

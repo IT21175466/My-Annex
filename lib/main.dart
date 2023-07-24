@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:my_annex/Add%20New%20Annex/UI/AddNewAnnex.dart';
 import 'package:my_annex/Bottom%20Navigation%20Bar/Bottom_Nav.dart';
 
 void main() {
@@ -26,8 +25,8 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: //BottomNav(),
-          AddNewAnnex(),
+      child: BottomNav(),
+      //HomePage(),
     );
     // This is the theme of your application.
     //
